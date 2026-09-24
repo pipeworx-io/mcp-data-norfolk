@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-data-norfolk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Norfolk Open Data (data.norfolk.gov) Socrata MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-data-norfolk": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "data-norfolk"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-data-norfolk"
+    "url": "git+https://github.com/pipeworx-io/mcp-data-norfolk.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-ab5ae1ac1851efa4977fd3032d07a9a805304e8f25d153afc41e0d69aec3a769",
+    "sourceCommit": "839ab210d969ef7f822cd747ea516f6bb49e9231"
   }
 }
