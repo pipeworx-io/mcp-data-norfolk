@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-data-norfolk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Norfolk Open Data (data.norfolk.gov) Socrata MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-ab5ae1ac1851efa4977fd3032d07a9a805304e8f25d153afc41e0d69aec3a769",
-    "sourceCommit": "839ab210d969ef7f822cd747ea516f6bb49e9231"
+    "sourceHash": "v1-6cc6853571c7adcae9edc4aea07f07949563de5b79675d0cbd3542c7f249bc11",
+    "sourceCommit": "56d3c46c09bb3078ffdbdbca992a93f406bcd382"
   }
 }
